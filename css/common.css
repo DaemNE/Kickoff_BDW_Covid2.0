@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #999;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    align-items: center;
+    background-color: #bbb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleName {
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+
+.titleLogo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header img {
+    /* Enkel gebruik voor logo */
+    padding: 20px 0px;
+}
+
+.active {
+    color: rgb(207, 62, 62);
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+footer {
+    align-items: center;
+    background-color: #bbb;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    height: 30px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
