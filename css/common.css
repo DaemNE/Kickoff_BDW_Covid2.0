@@ -62,7 +62,7 @@ footer {
     display: flex;
     font-size: 0.8rem;
     justify-content: space-between;
-    height: 30px;
+    padding: 20px;
 }
 
 footer ul {
