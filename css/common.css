@@ -82,3 +82,18 @@ footer ul li a {
 main {
     background-color: #fff;
 }
+
+.hero p {
+    padding: 50px;
+}
+
+.heroName {
+    font-size: 2rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 14deg, rgba(226, 31, 31, 0.8618040966386554) 0%, rgba(121, 244, 120, 0.8393951330532212) 49%, rgba(33, 105, 116, 0.8505996148459384) 76%);
+}
