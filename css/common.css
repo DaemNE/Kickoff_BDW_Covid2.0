@@ -56,26 +56,27 @@ header img {
     text-decoration: underline;
 }
 
-footer {
+.copyrights {
     align-items: center;
-    background-color: #bbb;
+    background-color: #353535;
+    color: #ddd;
     display: flex;
     font-size: 0.8rem;
     justify-content: space-between;
     padding: 20px;
 }
 
-footer ul {
+.copyrights ul {
     display: flex;
 }
 
-footer ul li {
+.copyrights ul li {
     list-style: none;
     margin-right: 30px;
 }
 
-footer ul li a {
-    color: #000;
+.copyrights ul li a {
+    color: #ddd;
     text-decoration: none;
 }
 
@@ -96,4 +97,50 @@ main {
     justify-content: center;
     align-items: center;
     background: linear-gradient( 14deg, rgba(226, 31, 31, 0.8618040966386554) 0%, rgba(121, 244, 120, 0.8393951330532212) 49%, rgba(33, 105, 116, 0.8505996148459384) 76%);
+}
+
+.footerContainer {
+    background-color: #333;
+    color: #ddd;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 40px;
+}
+
+.footerJobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.footerContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.footerContainer ul li {
+    list-style: none;
+}
+
+.footerContainer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footerContainer ul {
+    margin-top: 10px;
+}
+
+.footerContainer h4 {
+    margin-top: 10px;
 }

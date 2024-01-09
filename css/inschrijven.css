@@ -2,7 +2,7 @@ input {
     display: block;
 }
 
-h3 {
+form h3 {
     color: rgb(99, 99, 207);
     padding: 10px 0px;
 }
