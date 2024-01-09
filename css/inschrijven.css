@@ -1,0 +1,51 @@
+input {
+    display: block;
+}
+
+h3 {
+    color: rgb(99, 99, 207);
+    padding: 10px 0px;
+}
+
+label {
+    color: #777;
+    font-size: 0.7rem;
+}
+
+select {
+    color: #777;
+    display: block;
+}
+
+.wrapperAdres {
+    display: flex;
+}
+
+.wrapperAdres div {
+    margin-right: 10px;
+}
+
+.wrapperAdres div:last-child {
+    margin-right: 0px;
+}
+
+.formWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    color: #00ff00;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px;
+}
+
+.formLeft {
+    width: 40%;
+}
+
+.formRight {
+    width: 30%;
+}
