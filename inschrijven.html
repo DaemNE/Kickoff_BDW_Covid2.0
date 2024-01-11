@@ -13,19 +13,20 @@
 <body>
     <header>
         <!-- Hier moeten we een logo voor ons bedrijf vinden en toevoegen-->
-        <div class="titleLogo">
-            <a href="index.html"><img src="images/logo.svg" alt="logo OdiCov"></a>
-            <div class="titleName">OdiCov</div>
+        <div class="headerWrapper">
+            <div class="titleLogo">
+                <a href="index.html"><img src="images/logo.svg" alt="logo OdiCov"></a>
+                <div class="titleName">OdiCov</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="over.html">Over</a></li>
+                    <li><a href="inschrijven.html" class="active">Inschrijven</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="over.html">Over</a></li>
-                <li><a href="#" class="active">Inschrijven</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
     </header>
     <main>
         <div class="hero">
@@ -51,91 +52,93 @@
 o Indien een tijdsslot volzet is, dan moet dit zichtbaar zijn op de
 website. -->
 
-        <form>
-            <div class="formWrapper">
-                <div class="formLeft">
-                    <h3>Persoonlijk</h3>
-                    <p>
-                        <label for="naam">Naam</label>
-                        <input type="text" id="naam" placeholder="Naam" required>
-                    </p>
-                    <p>
-                        <label for="voornaam">Voornaam</label>
-                        <input type="text" id="voornaam" placeholder="Voornaam" required>
-                    </p>
-                    <p>
-                        <label for="rijksregisternummer">Rijksregisternummer</label>
-                        <input type="text" id="rijksregisternummer" placeholder="Rijksregisternummer" required>
-                    </p>
-                    <h3>Adres</h3>
-                    <div class="wrapperAdres">
-                        <div>
-                            <p>
-                                <label for="straat">Straat</label>
-                                <input type="text" id="straat" placeholder="Straat" required>
-                            </p>
-                            <p>
-                                <label for="nummer">Nummer</label>
-                                <input type="number" id="nummer" placeholder="Nummer" required>
-                            </p>
+        <div class="mainWrapper">
+            <form>
+                <div class="formWrapper">
+                    <div class="formLeft">
+                        <h3>Persoonlijk</h3>
+                        <p>
+                            <label for="naam">Naam</label>
+                            <input type="text" id="naam" placeholder="Naam" required>
+                        </p>
+                        <p>
+                            <label for="voornaam">Voornaam</label>
+                            <input type="text" id="voornaam" placeholder="Voornaam" required>
+                        </p>
+                        <p>
+                            <label for="rijksregisternummer">Rijksregisternummer</label>
+                            <input type="text" id="rijksregisternummer" placeholder="Rijksregisternummer" required>
+                        </p>
+                        <h3>Adres</h3>
+                        <div class="wrapperAdres">
+                            <div>
+                                <p>
+                                    <label for="straat">Straat</label>
+                                    <input type="text" id="straat" placeholder="Straat" required>
+                                </p>
+                                <p>
+                                    <label for="nummer">Nummer</label>
+                                    <input type="number" id="nummer" placeholder="Nummer" required>
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    <label for="postcode">Postcode</label>
+                                    <input type="number" id="postcode" placeholder="Postcode" required>
+                                </p>
+                                <p>
+                                    <label for="gemeente">Gemeente</label>
+                                    <input type="text" id="gemeente" placeholder="gemeente" required>
+                                </p>
+                            </div>
                         </div>
-                        <div>
-                            <p>
-                                <label for="postcode">Postcode</label>
-                                <input type="number" id="postcode" placeholder="Postcode" required>
-                            </p>
-                            <p>
-                                <label for="gemeente">Gemeente</label>
-                                <input type="text" id="gemeente" placeholder="gemeente" required>
-                            </p>
-                        </div>
+                        <button type="submit">Inschrijven</button>
                     </div>
-                    <button type="submit">Inschrijven</button>
+                    <div class="formRight">
+                        <h3>Contactinfo</h3>
+                        <p>
+                            <label for="gsm">GSM-Nummer</label>
+                            <input type="number" id="gsm" placeholder="Gsm-Nummer" required>
+                        </p>
+                        <p>
+                            <label for="email">Email-adres</label>
+                            <input type="email" id="email" placeholder="Email-adres" required>
+                        </p>
+                        <h3>Huisarts en tijdslot kiezen.</h3>
+                        <p>
+                            <label for="arts">Selecteer je huisarts</label>
+                            <select name="arts" id="arts">
+                                <option value="-1">Kiezen</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="datumAfspraak">Datum van afspraak</label>
+                            <select name="datumAfspraak" id="datumAfspraak">
+                                <option value="-1">Kiezen</option>
+                                <option value="8u30">8u30</option>
+                                <option value="11u30">11u30</option>
+                                <option value="13u30">13u30</option>
+                                <option value="15u30">15u30</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="tijdslotAfspraak">Tijdslot van afspraak</label>
+                            <select name="tijdslotAfspraak" id="tijdslotAfspraak">
+                                <option value="-1">Kiezen</option>
+                                <option value="voormiddag">Voormiddag</option>
+                                <option value="namiddag">Namiddag</option>
+                                <option value="avond">Avond</option>
+                            </select>
+                        </p>
+                    </div>
                 </div>
-                <div class="formRight">
-                    <h3>Contactinfo</h3>
-                    <p>
-                        <label for="gsm">GSM-Nummer</label>
-                        <input type="number" id="gsm" placeholder="Gsm-Nummer" required>
-                    </p>
-                    <p>
-                        <label for="email">Email-adres</label>
-                        <input type="email" id="email" placeholder="Email-adres" required>
-                    </p>
-                    <h3>Huisarts en tijdslot kiezen.</h3>
-                    <p>
-                        <label for="arts">Selecteer je huisarts</label>
-                        <select name="arts" id="arts">
-                            <option value="-1">Kiezen</option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                    </p>
-                    <p>
-                        <label for="datumAfspraak">Datum van afspraak</label>
-                        <select name="datumAfspraak" id="datumAfspraak">
-                            <option value="-1">Kiezen</option>
-                            <option value="8u30">8u30</option>
-                            <option value="11u30">11u30</option>
-                            <option value="13u30">13u30</option>
-                            <option value="15u30">15u30</option>
-                        </select>
-                    </p>
-                    <p>
-                        <label for="tijdslotAfspraak">Tijdslot van afspraak</label>
-                        <select name="tijdslotAfspraak" id="tijdslotAfspraak">
-                            <option value="-1">Kiezen</option>
-                            <option value="voormiddag">Voormiddag</option>
-                            <option value="namiddag">Namiddag</option>
-                            <option value="avond">Avond</option>
-                        </select>
-                    </p>
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </main>
     <footer>
         <div class="footerContainer">

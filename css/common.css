@@ -5,19 +5,20 @@
 
 html {
     box-sizing: border-box;
-}
-
-body {
-    background-color: #999;
-    max-width: 960px;
-    margin: 0 auto;
+    font-size: 18px;
 }
 
 header {
+    background-color: #bbb;
+}
+
+.headerWrapper {
     align-items: center;
     background-color: #bbb;
     display: flex;
     justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .titleName {
@@ -53,7 +54,8 @@ header img {
 .active {
     color: rgb(207, 62, 62);
     font-weight: 900;
-    text-decoration: underline;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    padding-bottom: 4px;
 }
 
 .copyrights {
@@ -81,7 +83,13 @@ header img {
 }
 
 main {
+    background-color: #ddd;
+}
+
+.mainWrapper {
     background-color: #fff;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .hero p {
