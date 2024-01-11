@@ -8,6 +8,7 @@
     <title>Inschrijven - OdiCov</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/inschrijven.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -18,11 +19,20 @@
                 <a href="index.html"><img src="images/logo.svg" alt="logo OdiCov"></a>
                 <div class="titleName">OdiCov</div>
             </div>
-            <nav>
+            <nav id="desktopNav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="over.html">Over</a></li>
-                    <li><a href="inschrijven.html" class="active">Inschrijven</a></li>
+                    <li><a href="#" class="active">Inschrijven</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div onclick="showMenu()" id="menuIcon">X</div>
+            <nav id="mobileNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="over.html">Over</a></li>
+                    <li><a href="#" class="active">Inschrijven</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -30,7 +40,7 @@
     </header>
     <main>
         <div class="hero">
-            <p><span class="heroName">OdiCov</span> - Samen sterk, samen tegen het virus</p>
+            <p><span class="heroName">OdiCov</span>Samen sterk, samen tegen het virus</p>
         </div>
         <div class="mainWrapper">
             <form>

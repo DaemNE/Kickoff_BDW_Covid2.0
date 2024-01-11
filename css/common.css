@@ -32,8 +32,22 @@ header {
     justify-content: space-between;
 }
 
-header nav ul {
-    display: flex;
+#mobileNav {
+    display: none;
+    position: fixed;
+    right: 0px;
+    top: 61px;
+    background-color: #444;
+    padding: 0px 0px 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+}
+
+#mobileNav ul li {
+    padding-top: 10px;
+}
+
+#desktopNav {
+    display: none;
 }
 
 header nav ul li {
@@ -100,6 +114,10 @@ main {
     font-size: 2rem;
 }
 
+.hero span {
+    display: block;
+}
+
 .hero {
     display: flex;
     justify-content: center;
@@ -111,29 +129,30 @@ main {
     background-color: #333;
     color: #ddd;
     display: flex;
-    justify-content: space-evenly;
-    padding: 30px 40px;
+    flex-direction: column;
+    padding: 10px 40px;
+}
+
+.footerContainer div {
+    padding-top: 10px;
 }
 
 .footerJobs {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
 }
 
 .footerContact {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
 }
 
 .footerLogo {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
 }
 
 .footerContainer ul li {
@@ -151,4 +170,23 @@ main {
 
 .footerContainer h4 {
     margin-top: 10px;
+}
+
+#menuIcon {
+    margin-right: 25px;
+}
+
+@media (min-width: 960px) {
+    #menuIcon {
+        display: none;
+    }
+    #desktopNav {
+        display: flex;
+    }
+    #desktopNav ul {
+        display: flex;
+    }
+    #mobileNav {
+        display: none;
+    }
 }
