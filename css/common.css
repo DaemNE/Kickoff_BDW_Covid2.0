@@ -190,3 +190,20 @@ main {
         display: none;
     }
 }
+
+body {
+   font-family: Helvetica,Arial,sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.4;
+}
+.OverWrapper {
+   background-color: #999;
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+#pagewrapper {
+   margin: 0 auto;
+   max-width: 100%;
+}

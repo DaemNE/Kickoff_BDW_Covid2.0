@@ -1,3 +1,27 @@
+.Overwrapper {
+   display: flex;
+   justify-content: space-evenly;
+   margin-right: 10%;
+   margin-left: 10%;
+}
+
+header img {
+   display: block;
+   max-width: 40%;
+   padding: 0 0 1px 0;
+}
+
+footer img {
+   display: block;
+   max-width: 40%;
+   padding: 0 0 1px 0;
+}
+
+.titleName {
+padding-left: 0%;
+padding-right: 0%;
+}
+
 h2 {
    color: rgb(6, 19, 78);
    font-size: 30px;
@@ -13,18 +37,25 @@ h3 {
    letter-spacing: 2px;
    padding: 5px 5px;
 }
+
+body {
+   flex: auto;
+}
+.leden + p {
+   color: #777;
+}
+
 .doelen {
-   display: inline-block;
-   margin-left: 100px;
-   margin-right: 100px;
+   text-align: center;
    height: 20%
-   
 }
 
 .sponsors img {
    height: 200px;
-   width: 50%; /* Make sure the image takes up the full width of its container */
+   max-width: 35%;
+   width: 100%; /* Make sure the image takes up the full width of its container */
    height: auto; /* Allow the image to adjust its height proportionally */
+   flex-wrap: wrap
  }
 
 
@@ -34,13 +65,12 @@ h3 {
    height: auto
  }
 
-.box1 {
-   width: 400px; /* Set the width of each box *
-   padding: 10px; /* Ruimte binnen de box vanaf de rand */
-   height: auto
-}
-
 .leden {
    text-align: center; /* Horizontaal centreren van de tekst */
    margin-top: 50px; /* Optionele marge aan de bovenkant toevoegen */
+   padding: 1%;
+}
+
+img {
+max-width: 100%;
 }
