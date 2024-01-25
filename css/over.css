@@ -8,18 +8,19 @@
 header img {
    display: block;
    max-width: 40%;
-   padding: 0 0 1px 0;
+   padding: 1px 0 1px 0;
 }
 
 footer img {
    display: block;
+   width: 20%;
    max-width: 40%;
    padding: 0 0 1px 0;
 }
 
 .titleName {
-padding-left: 0%;
-padding-right: 0%;
+   font-size: 1.4rem;
+   margin-left: 20px;
 }
 
 h2 {
@@ -55,7 +56,7 @@ body {
    max-width: 35%;
    width: 100%; /* Make sure the image takes up the full width of its container */
    height: auto; /* Allow the image to adjust its height proportionally */
-   flex-wrap: wrap
+   margin: 10px 5px 10px 5px;
  }
 
 
@@ -73,4 +74,8 @@ body {
 
 img {
 max-width: 100%;
+}
+
+p {
+margin-bottom: 10px;
 }
