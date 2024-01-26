@@ -18,7 +18,7 @@ header {
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    max-width: 960px;
+    max-width: 460px;
     margin: 0 auto;
 }
 
@@ -36,8 +36,8 @@ header {
 #mobileNav {
     display: none;
     position: fixed;
-    right: 0px;
-    top: 61px;
+    right: 0;
+    top: 10%;
     background-color: rgb(6, 23, 36);
     padding: 0px 0px 10px 10px;
     border-bottom-left-radius: 10px 10px;
@@ -67,7 +67,7 @@ header img {
 }
 
 .active {
-    color: rgb(6, 23, 36);
+    color: #0f0;
     font-weight: 900;
     border-bottom: 1px solid rgb(5, 32, 52);
     padding-bottom: 4px;
@@ -98,12 +98,17 @@ header img {
 }
 
 main {
-    background-color: rgb(150, 150, 150)beb;
+    background-color: rgb(150, 150, 150);
+}
+
+.logo {
+    width: 50%;
+    margin-left: 25px;
 }
 
 .mainWrapper {
     background-color: #fff;
-    max-width: 960px;
+    max-width: 460px;
     margin: 0 auto;
 }
 
@@ -114,7 +119,6 @@ main {
 
 .heroName {
     font-size: 2rem;
-
 }
 
 .hero span {
@@ -128,20 +132,26 @@ main {
     background: rgb(36, 34, 99);
 }
 
-.footerContainer {
+footer {
     background-color: rgb(36, 34, 99);
+}
+
+.footerContainer {
     color: #ddd;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     padding: 10px 40px;
+    max-width: 460px;
+    margin: 0 auto;
 }
 
 .footerContainer div {
     padding-top: 10px;
+    width: 45%;
 }
 
 .footerJobs {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -150,12 +160,14 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footerLogo {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 25px;
+    justify-content: center;
 }
 
 .footerContainer ul li {
@@ -179,7 +191,34 @@ main {
     margin-right: 25px;
 }
 
-@media (min-width: 960px) {
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.OverWrapper {
+    background-color: #999;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+#pagewrapper {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.activeMobile {
+    color: #0f0;
+}
+
+#desktopNav,
+#mobileNav {
+    color: black;
+}
+
+@media (min-width: 760px) {
     #menuIcon {
         display: none;
     }
@@ -192,21 +231,38 @@ main {
     #mobileNav {
         display: none;
     }
+    .footerContainer div {
+        padding-top: 10px;
+        width: 30%;
+    }
+    .footerJobs {
+        display: flex;
+    }
+    .OverWrapper {
+        max-width: 760px;
+    }
+    .footerContainer {
+        max-width: 760px;
+    }
+    .mainWrapper {
+        max-width: 760px;
+    }
+    .headerWrapper {
+        max-width: 760px;
+    }
 }
 
-body {
-   font-family: Helvetica,Arial,sans-serif;
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 1.4;
-}
-.OverWrapper {
-   background-color: #999;
-   max-width: 900px;
-   margin: 0 auto;
-}
-
-#pagewrapper {
-   margin: 0 auto;
-   max-width: 100%;
+@media (min-width: 960px) {
+    .OverWrapper {
+        max-width: 960px;
+    }
+    .footerContainer {
+        max-width: 960px;
+    }
+    .mainWrapper {
+        max-width: 960px;
+    }
+    .headerWrapper {
+        max-width: 960px;
+    }
 }
