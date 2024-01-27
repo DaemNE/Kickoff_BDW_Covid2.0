@@ -1,0 +1,25 @@
+header img {
+    display: block;
+    max-width: 50%;
+    padding: 10px;
+ }
+ 
+#contact_form{
+    background-color:#e3ecee ;
+    max-width: 400px;
+    padding: 10px ;
+ }
+ #contact_form label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: 5px;
+ 
+ }
+ #contact_form #text{
+    width: 100%;
+ }
+ #contact_form .btn1{
+   margin: 10px 0;
+
+ }

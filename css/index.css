@@ -1,8 +1,12 @@
-.mainWrapper {
-    margin:10px 130px;
-    width: 40%;
+.maintext {
+   max-width: 100%;
 }
 .img{
     text-align: center;
     margin:10px;
 }
+header img {
+    display: block;
+    max-width: 50%;
+    padding: 5px;
+ }
