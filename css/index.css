@@ -10,3 +10,23 @@ header img {
     max-width: 50%;
     padding: 5px;
  }
+ .maintext{
+   margin-top:20px;
+  
+   
+  
+ }
+ .service{
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+ .maintext ul{
+    list-style-type: none;
+ }
+ #banner img{
+width: 100%;
+ }
+ .footerContainer{
+    font-size: 14px;
+   
+ }
