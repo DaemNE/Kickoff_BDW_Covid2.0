@@ -1,6 +1,6 @@
-.mainWrapper p{
-    margin: 0 auto;
-    text-align: center;
+.mainWrapper {
+    margin:10px 130px;
+    width: 40%;
 }
 .img{
     text-align: center;
