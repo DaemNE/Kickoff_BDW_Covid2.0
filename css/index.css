@@ -30,3 +30,22 @@ width: 100%;
     font-size: 14px;
    
  }
+ .recensies{
+    width: 12%;
+    display: block;
+    flex-direction: row;
+ }
+ .recensies p{
+    font-size: 10px;
+    color:#3a3a3a;
+    margin-left: 10px;
+    font-weight: 400;
+    font-style: italic;
+    border-bottom: #3a3a3a 1px solid;
+ }
+.recensies img{
+    margin: 10px;
+}
+h5{
+    margin-left: 10px;
+}
