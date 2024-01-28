@@ -2,7 +2,7 @@
     background-image: url("../img/banner.jpg");
     background-size: cover;
     display: flex;
-    height: 200px;
+    height: 300px;
     align-items: left;
    
     
@@ -29,13 +29,13 @@
 header img {
     display: block;
     max-width: 50%;
-    padding: 5px;
+    padding: 10px;
  }
  .maintext{
    margin-top:20px;
-  
-   
-  
+ }
+ .maintext p{
+    margin:10px 0;
  }
  .service{
     margin-top: 10px;
