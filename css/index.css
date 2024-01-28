@@ -4,6 +4,7 @@
     display: flex;
     height: 200px;
     align-items: left;
+   
     
 }
 .banner ul{
@@ -11,6 +12,12 @@
     flex-direction: column;
     list-style-type: none;
     margin:20px;
+    font-size: 18px;
+}
+.banner ul li{
+    border-bottom: 1px rgb(6, 19, 73) dotted;
+    color:rgb(6, 19, 73) ;
+    margin: 5px;
 }
 .maintext {
    max-width: 100%;
