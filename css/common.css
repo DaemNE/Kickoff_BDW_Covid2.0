@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -9,22 +10,19 @@ html {
 }
 
 header {
-    background-color: #bbb;
+    background-color: #ffffff;
 }
 
 .headerWrapper {
     align-items: center;
-    background-color: #bbb;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    max-width: 960px;
+    max-width: 460px;
     margin: 0 auto;
 }
 
-.titleName {
-    font-size: 1.4rem;
-    margin-left: 20px;
-}
+
 
 .titleLogo {
     align-items: center;
@@ -35,9 +33,9 @@ header {
 #mobileNav {
     display: none;
     position: fixed;
-    right: 0px;
-    top: 61px;
-    background-color: #444;
+    right: 0;
+    top: 10%;
+    background-color: rgb(6, 23, 36);
     padding: 0px 0px 10px 10px;
     border-bottom-left-radius: 10px 10px;
 }
@@ -57,7 +55,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #000;
+    color: #f4f0f0;
 }
 
 header img {
@@ -66,15 +64,15 @@ header img {
 }
 
 .active {
-    color: rgb(207, 62, 62);
+    color: rgb(6, 19, 73);
     font-weight: 900;
-    border-bottom: 1px solid rgb(255, 0, 0);
+    border-bottom: 1px solid rgb(5, 32, 52);
     padding-bottom: 4px;
 }
 
 .copyrights {
     align-items: center;
-    background-color: #353535;
+    background-color: rgb(6, 23, 36);
     color: #ddd;
     display: flex;
     font-size: 0.8rem;
@@ -97,17 +95,23 @@ header img {
 }
 
 main {
-    background-color: #ddd;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 50%;
+    margin-left: 25px;
 }
 
 .mainWrapper {
     background-color: #fff;
-    max-width: 960px;
+    max-width: 460px;
     margin: 0 auto;
 }
 
 .hero p {
-    padding: 50px;
+    padding: 20px;
+    color: #ffffff;
 }
 
 .heroName {
@@ -122,23 +126,29 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient( 14deg, rgba(226, 31, 31, 0.8618040966386554) 0%, rgba(121, 244, 120, 0.8393951330532212) 49%, rgba(33, 105, 116, 0.8505996148459384) 76%);
+    background: rgb(36, 34, 99);
+}
+
+footer {
+    background-color: rgb(36, 34, 99);
 }
 
 .footerContainer {
-    background-color: #333;
     color: #ddd;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     padding: 10px 40px;
+    max-width: 460px;
+    margin: 0 auto;
 }
 
 .footerContainer div {
     padding-top: 10px;
+    width: 45%;
 }
 
 .footerJobs {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -147,12 +157,14 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footerLogo {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 25px;
+    justify-content: center;
 }
 
 .footerContainer ul li {
@@ -170,13 +182,41 @@ main {
 
 .footerContainer h4 {
     margin-top: 10px;
+    margin-left: 5px;
 }
 
 #menuIcon {
     margin-right: 25px;
 }
 
-@media (min-width: 960px) {
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.OverWrapper {
+    background-color: #999;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+#pagewrapper {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.activeMobile {
+    color: #0f0;
+}
+
+#desktopNav,
+#mobileNav {
+    color: rgb(6, 19, 73);
+}
+
+@media (min-width: 760px) {
     #menuIcon {
         display: none;
     }
@@ -189,21 +229,38 @@ main {
     #mobileNav {
         display: none;
     }
+    .footerContainer div {
+        padding-top: 10px;
+        width: 30%;
+    }
+    .footerJobs {
+        display: flex;
+    }
+    .OverWrapper {
+        max-width: 760px;
+    }
+    .footerContainer {
+        max-width: 760px;
+    }
+    .mainWrapper {
+        max-width: 760px;
+    }
+    .headerWrapper {
+        max-width: 760px;
+    }
 }
 
-body {
-   font-family: Helvetica,Arial,sans-serif;
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 1.4;
-}
-.OverWrapper {
-   background-color: #999;
-   max-width: 900px;
-   margin: 0 auto;
-}
-
-#pagewrapper {
-   margin: 0 auto;
-   max-width: 100%;
+@media (min-width: 960px) {
+    .OverWrapper {
+        max-width: 960px;
+    }
+    .footerContainer {
+        max-width: 960px;
+    }
+    .mainWrapper {
+        max-width: 960px;
+    }
+    .headerWrapper {
+        max-width: 960px;
+    }
 }

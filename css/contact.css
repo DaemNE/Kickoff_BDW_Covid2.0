@@ -1,0 +1,37 @@
+.adress{
+    width:40%;
+    display: flex;
+    flex-flow: row;
+ }
+
+#contact_form{
+    background-color: rgb(72, 71, 107) ;
+    max-width: 400px;
+    padding: 10px ;
+    color: #ffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+      
+}
+ #contact_form label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: 5px;
+ 
+ }
+ #contact_form #text{
+    width: 100%;
+ }
+ #contact_form .btn1{
+   margin: 10px 0;
+   border-radius: 8px;
+   padding: 6px;
+ }
+
+
+ header img {
+    display: block;
+    max-width: 50%;
+    padding: 10px;
+ }
