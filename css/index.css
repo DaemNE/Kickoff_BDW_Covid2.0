@@ -89,5 +89,6 @@ h5{margin-left: 150px;
 
 }
 .banner ul li{
-    margin: 8px;
+    margin: 8px 2px;
+    font-weight: 600;
 }

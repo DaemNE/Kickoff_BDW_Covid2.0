@@ -22,10 +22,7 @@ header {
     margin: 0 auto;
 }
 
-.titleName {
-    font-size: 1.4rem;
-    margin-left: 20px;
-}
+
 
 .titleLogo {
     align-items: center;
@@ -140,7 +137,7 @@ footer {
     color: #ddd;
     display: flex;
     justify-content: space-between;
-    padding: 10px 80px;
+    padding: 10px 40px;
     max-width: 460px;
     margin: 0 auto;
 }
@@ -185,7 +182,7 @@ footer {
 
 .footerContainer h4 {
     margin-top: 10px;
-
+    margin-left: 5px;
 }
 
 #menuIcon {
