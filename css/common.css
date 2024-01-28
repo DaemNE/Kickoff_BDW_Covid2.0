@@ -140,7 +140,7 @@ footer {
     color: #ddd;
     display: flex;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 10px 80px;
     max-width: 460px;
     margin: 0 auto;
 }
@@ -185,6 +185,7 @@ footer {
 
 .footerContainer h4 {
     margin-top: 10px;
+
 }
 
 #menuIcon {

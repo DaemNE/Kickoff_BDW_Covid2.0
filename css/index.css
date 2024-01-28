@@ -15,9 +15,11 @@
     font-size: 18px;
 }
 .banner ul li{
-    border-bottom: 1px rgb(6, 19, 73) dotted;
     color:rgb(6, 19, 73) ;
     margin: 5px;
+}
+.footerContact {display: flex;
+
 }
 .maintext {
    max-width: 100%;
@@ -43,7 +45,7 @@ header img {
    
  }
  .maintext ul{
-    list-style-type: none;
+    margin-left: 20px;
  }
  #banner img{
 width: 100%;
@@ -71,6 +73,10 @@ width: 100%;
  .recensies ul{
     list-style-type:none;
  }
+ .recensies ul:last-child{
+   margin-bottom: 10px;
+ }
+
 .recensies img{
     margin: 10px 0;
 }
@@ -79,5 +85,9 @@ h6{
     margin-top: 10px;
 }
 h5{margin-left: 150px;
+    margin-top: 10px;
 
+}
+.banner ul li{
+    margin: 8px;
 }
