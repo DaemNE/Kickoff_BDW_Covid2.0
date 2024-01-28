@@ -10,7 +10,7 @@ html {
 }
 
 header {
-    background-color: #ffffffce;
+    background-color: #ffffff;
 }
 
 .headerWrapper {
@@ -22,7 +22,10 @@ header {
     margin: 0 auto;
 }
 
-
+.titleName {
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
 
 .titleLogo {
     align-items: center;
@@ -55,7 +58,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #f4f0f0;
+    color: rgb(6, 19, 73);
 }
 
 header img {
