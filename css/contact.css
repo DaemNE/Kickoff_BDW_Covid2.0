@@ -1,8 +1,4 @@
-.adress{
-    width:40%;
-    display: flex;
-    flex-flow: row;
- }
+
 
 #contact_form{
     background-color: rgb(72, 71, 107) ;
@@ -35,3 +31,13 @@
     max-width: 50%;
     padding: 10px;
  }
+ @media (min-width: 760px) {
+    #contact_form{
+        max-width: 800px;
+        padding: 10px ;
+        margin-bottom: 10px;
+        margin-top: 10px;
+          
+    }
+   
+}
