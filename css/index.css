@@ -1,17 +1,16 @@
 .banner{
-    background-image: url("/Kickoff_BDW_Covid2.0/img/banner.jpg");
+    background-image: url("../img/banner.jpg");
     background-size: cover;
     display: flex;
-    justify-content: center;
     height: 200px;
-    align-items: center;
+    align-items: left;
     
 }
 .banner ul{
     display: flex;
-
+    flex-direction: column;
     list-style-type: none;
-    margin:10px;
+    margin:20px;
 }
 .maintext {
    max-width: 100%;
