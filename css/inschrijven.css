@@ -1,3 +1,10 @@
+header img {
+    display: block;
+    max-width: 50%;
+    padding: 10px;
+ }
+
+
 input {
     display: block;
 }
@@ -36,7 +43,7 @@ select {
 }
 
 button {
-    color: #00ff00;
+    color: rgb(6, 19, 73);
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
