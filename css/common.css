@@ -310,6 +310,7 @@ body {
     .headerWrapper {
         max-width: 760px;
     }
+ 
 }
 
 @media (min-width: 960px) {
