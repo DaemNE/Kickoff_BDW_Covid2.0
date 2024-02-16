@@ -1,43 +1,24 @@
-.Overwrapper {
-   display: flex;
-   justify-content: space-evenly;
-   margin-right: 10%;
-   margin-left: 10%;
-}
-
 header img {
    display: block;
    max-width: 50%;
    padding: 10px;
 }
 
-h2 {
-   color: rgb(6, 19, 78);
-   font-size: 30px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   letter-spacing: 2px;
-   padding: 10px 10px;
-   text-align: center;
-}
-h3 {
-   color: rgb(6, 19, 78);
-   font-size: 20px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   letter-spacing: 2px;
-   padding: 5px 5px;
-}
-
 body {
    flex: auto;
 }
-.leden + p {
-   color: #777;
+.leden {
+   text-align: center;
+}
+.leden p{
+   color: #000000;
+}
+.leden h2{
+   font-size: 40px;
+   text-decoration: wavy;
 }
 
-.doelen {
-   text-align: center;
-   height: 20%
-}
+
 
 .sponsors img {
    height: 200px;
@@ -49,13 +30,11 @@ body {
 
 
 .overons {
-   text-align: center; /* Horizontaal centreren van de tekst */
    margin-top: 5px; /* Optionele marge aan de bovenkant toevoegen */
    height: auto
  }
 
 .leden {
-   text-align: center; /* Horizontaal centreren van de tekst */
    margin-top: 50px; /* Optionele marge aan de bovenkant toevoegen */
    padding: 1%;
 }
@@ -66,12 +45,8 @@ max-width: 100%;
 
 .leden p {
 margin-bottom: 10px;
-margin-left: 20px;
-margin-right: 20px;
 }
 
 .overons p {
    margin-bottom: 10px;
-   margin-left: 50px;
-   margin-right: 50px;
    }
