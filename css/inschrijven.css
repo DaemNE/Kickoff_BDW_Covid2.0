@@ -19,7 +19,7 @@ label {
 }
 
 select {
-    color: rgb(0, 0, 0);
+    color: rgb(6, 19, 73);
     display: block;
 }
 
@@ -38,7 +38,7 @@ select {
 .formWrapper {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+
 }
 
 button {
