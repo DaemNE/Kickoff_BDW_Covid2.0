@@ -30,7 +30,15 @@ color:  rgb(6, 19, 78);
  #contact_form label{
 color: rgb(6, 19, 78);
 }
-
+.Gent{
+    margin-bottom: 20px;
+}
+.Brussel{
+    margin-bottom: 20px;
+}
+.Antwerpen{
+    margin-bottom: 20px;
+}
  header img {
     display: block;
     max-width: 50%;
