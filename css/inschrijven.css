@@ -1,25 +1,24 @@
-header img {
-    display: block;
-    max-width: 50%;
-    padding: 10px;
- }
 
 
 input {
     display: block;
 }
 
+.img{
+    text-align: center;
+}
 form h3 {
     padding: 10px 0px;
 }
 
 label {
-    color: rgb(6, 19, 73);
+
+    color:#564b4b;
     font-size: 0.7rem;
 }
 
 select {
-    color: rgb(6, 19, 73);
+    color: #c9c2c2;
     display: block;
 }
 
@@ -42,11 +41,11 @@ select {
 }
 
 button {
-    color: rgb(6, 19, 73);
+    color:  #564b4b;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
-    margin: 10px 0px;
+    margin: 50px 0px;
 }
 
 @media (min-width: 760px) {

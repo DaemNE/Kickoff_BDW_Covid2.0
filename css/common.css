@@ -5,9 +5,9 @@ main{
 * {
     margin: 0;
     padding: 0;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Merriweather, Geneva, Verdana, sans-serif;
     font-size: 18px;
-    color: #686767;
+    color: #c9c2c2;
 }
 
 html {
@@ -16,16 +16,18 @@ html {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #564b4b;
+   
 }
 
 .headerWrapper {
     align-items: center;
-    background-color: #ffffff;
+    background-color: #564b4b;
     display: flex;
     justify-content: space-between;
     max-width: 460px;
     margin: 0 auto;
+    border-bottom: #f05f40 1px solid;
 }
 
 .titleName {
@@ -40,7 +42,7 @@ header {
 }
 
 .heroName {
- color: #fff;
+ color: #fcf8f8;
 }
 
 #mobileNav {
@@ -48,7 +50,7 @@ header {
     position: fixed;
     right: 0;
     top: 10%;
-    background-color: rgb(255, 255, 255);
+    background-color: #564b4b;
     padding: 0px 0px 10px 10px;
     border-bottom-left-radius: 10px 10px;
     text-align: justify;
@@ -62,31 +64,33 @@ header {
     display: none;
       padding-top: 2rem;
       padding-bottom: 2rem;
+      
 }
 
 header nav ul li {
     list-style: none;
     margin-right: 30px;
+   
 }
 
 header nav ul li a {
     text-decoration: none;
-    color:rgb(6, 19, 73);
+    color:#c9c2c2;
 }
 
 
 
 .active {
-    color: rgb(6, 19, 73);
+    color: #9c9696;
     font-weight: 900;
-    border-bottom: 1px solid rgb(5, 32, 52);
+    border-bottom: 1px solid #9c9696;
     padding-bottom: 4px;
 }
 
 .copyrights {
     align-items: center;
-    background-color: rgb(6, 23, 36);
-    color: #ddd;
+    background-color: #564b4b;
+    color: #686767;
     display: flex;
     font-size: 0.8rem;
     justify-content: space-between;
@@ -103,12 +107,12 @@ header nav ul li a {
 }
 
 .copyrights ul li a {
-    color: #ddd;
+    color: #686767;
     text-decoration: none;
 }
 
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: #564b4b;
 }
 
 .logo {
@@ -117,14 +121,14 @@ main {
 }
 
 .mainWrapper {
-    background-color: #fff;
+    background-color: #f05f40;
     max-width: 460px;
     margin: 0 auto;
 }
 
 .hero p {
     padding: 20px;
-    color: #ffffff;
+    color: #fcf8f8;
 }
 
 .heroName {
@@ -138,15 +142,16 @@ main {
 .hero {
     display: flex;
     justify-content: center;
-    background: rgb(1, 37, 85);
+    background: #564b4b;
 }
 
 footer {
-    background-color: rgb(1, 37, 85);
+    background-color: #564b4b;
+    font-size: 0.8em;
 }
 
 .footerContainer {
-    color: #ddd;
+    color: #c9c2c2;
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
@@ -154,15 +159,16 @@ footer {
     margin: 0 auto;
 }
 .footerContainer p {
-   color: #ddd;
+   color: #c9c2c2;
+   font-size: 0.8rem;
+   
 }
 .footerContainer div {
-    padding-top: 10px;
-    width: 45%;
+   
+    width: 30%;
 }
 .footerContainer h3 {
-   color: #ddd;
-   font-size: 30px;
+   color: #c9c2c2;
 }
 
 .footerJobs {
@@ -190,21 +196,19 @@ footer {
 }
 
 .footerContainer a {
-    color: #579155;
+    color:#c9c2c2;
     text-decoration: none;
 }
 
-.footerContainer ul {
-    margin-top: 10px;
-}
+
 .footerContainer li {
-   color: #ddd;
+   color: #c9c2c2;
 }
 .footerContainer h4 {
-   color: #ddd;
+   color: #c9c2c2;
 }
 .copyrights div {
-   color: #ddd;
+   color: #c9c2c2;
 }
 
 .footerContainer h4 {
@@ -217,44 +221,43 @@ footer {
 }
 
 h2 {
-   color: rgb(6, 19, 78);
+   color: #fcf8f8;
    font-size: 30px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: Merriweather, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    letter-spacing: 2px;
-   margin: 10px 5px 20px 0px;
+  
 
 }
 h3 {
-   color: rgb(6, 19, 78);
+   color: #fcf8f8;
    font-size: 20px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: Merriweather, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    margin: 10px 5px 20px 0px;
 }
 h4 {
-   color: rgb(6, 19, 78);
+   color: #fcf8f8;
    font-size: 20px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: Merriweather, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    margin: 10px 5px 20px 0px;
 }
 
 h5 {
-   color: rgb(6, 19, 78);
+   color: #fcf8f8;
    font-size: 20px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   margin: 10px 5px 20px 0px;
+   font-family: Merriweather, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h6 {
-   color: rgb(6, 19, 78);
+   color:#fcf8f8;
 }
 
 .recensies p {
-   color: rgb(6, 19, 78);
+   color: #c9c2c2;
 } 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Merriweather, Arial, sans-serif;
     font-size: 20px;
-    color: #050138;
+    color: #c9c2c2;
     font-weight: 450;
     line-height: 1.4;
 }
@@ -276,7 +279,7 @@ body {
 
 #desktopNav,
 #mobileNav {
-    color: rgb(6, 19, 73);
+    color:#c9c2c2;
 }
 
 @media (min-width: 760px) {

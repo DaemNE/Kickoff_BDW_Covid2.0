@@ -10,15 +10,22 @@ body {
 .leden {
    text-align: center;
 }
+.leden img{
+   max-width: 250px;
+   max-height: 350px;
+}
 .leden p{
-   color: #000000;
+   color:#686767;
 }
 .leden h2{
    font-size: 40px;
    text-decoration: wavy;
 }
 
-
+.overfoto{
+   text-align: center;
+   margin-top: 50px;
+}
 
 .sponsors img {
    height: 200px;
@@ -31,7 +38,6 @@ body {
 
 .overons {
    margin-top: 5px; /* Optionele marge aan de bovenkant toevoegen */
-   height: auto
  }
 
 .leden {

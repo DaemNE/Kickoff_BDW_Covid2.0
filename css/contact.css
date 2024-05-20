@@ -1,16 +1,15 @@
 
 
 #contact_form{
-    background-color: rgb(204, 203, 218) ;
+    background-color: #f87e62 ;
     max-width: 400px;
     padding: 10px ;
-    color: #ffff;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    color: rgb(245, 245, 245);
+    
 }
 
 #contact_form p {
-color:  rgb(6, 19, 78);
+color:  #564b4b;
 }
 #contact_form label{
     display: flex;
@@ -20,24 +19,32 @@ color:  rgb(6, 19, 78);
  }
  #contact_form #text{
     width: 100%;
-    color:  rgb(6, 19, 78);
+    color:  #564b4b;
  }
  #contact_form .btn1{
-   margin: 10px 0;
-   border-radius: 8px;
-   padding: 6px;
+   border: none;
+   font-size: 18px;
+   color:  #564b4b;
+   padding: 10px 20px;
+   border-radius: 5px;
+   border: none;
+   margin: 50px 0px;
  }
  #contact_form label{
-color: rgb(6, 19, 78);
+color: #564b4b;
+
 }
 .Gent{
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 .Brussel{
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 .Antwerpen{
     margin-bottom: 20px;
+    margin-left: 10px;
 }
  header img {
     display: block;
