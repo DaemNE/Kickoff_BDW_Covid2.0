@@ -1,7 +1,7 @@
 
 
 #contact_form{
-    background-color: #f87e62 ;
+    background-color: #80b6e4 ;
     max-width: 400px;
     padding: 10px ;
     color: rgb(245, 245, 245);
@@ -9,7 +9,7 @@
 }
 
 #contact_form p {
-color:  #564b4b;
+color:  #ffffff;
 }
 #contact_form label{
     display: flex;
@@ -19,19 +19,19 @@ color:  #564b4b;
  }
  #contact_form #text{
     width: 100%;
-    color:  #564b4b;
+    color:  #ffffff;
  }
  #contact_form .btn1{
    border: none;
    font-size: 18px;
-   color:  #564b4b;
+   color:  #ffffff;
    padding: 10px 20px;
    border-radius: 5px;
    border: none;
    margin: 50px 0px;
  }
  #contact_form label{
-color: #564b4b;
+color: #ffffff;
 
 }
 .Gent{
