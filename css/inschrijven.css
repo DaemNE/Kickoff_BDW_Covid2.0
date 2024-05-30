@@ -41,11 +41,12 @@ select {
 }
 
 button {
-    color:  #564b4b;
+    color:  #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
     margin: 50px 0px;
+    background-color: #80b6e4;
 }
 
 @media (min-width: 760px) {
