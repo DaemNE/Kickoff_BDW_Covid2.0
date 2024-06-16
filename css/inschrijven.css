@@ -10,7 +10,11 @@ input {
 form h3 {
     padding: 10px 0px;
 }
-
+header img {
+    display: block;
+    max-width: 50%;
+    padding: 10px;
+ }
 label {
 
     color:#564b4b;
